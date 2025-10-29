@@ -85,7 +85,7 @@ Este documento fornece orientações sobre como identificar, diagnosticar e reso
 
 ### Passo 4: Implementar Correção
 1. Criar branch para a correção
-2. Implementar fix minimal necessário
+2. Implementar fix mínimo necessário
 3. Testar a correção localmente
 4. Submeter pull request com descrição detalhada
 

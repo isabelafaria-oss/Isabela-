@@ -15,6 +15,7 @@ Este repositório está em fase inicial de configuração. Atualmente contém:
 
 ## Documentação / Documentation
 
+- [SUMMARY.md](SUMMARY.md) - Resumo executivo da análise de falhas
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Guia de solução de problemas
 - [FAILURE_ANALYSIS.md](FAILURE_ANALYSIS.md) - Análise detalhada de falhas identificadas
 

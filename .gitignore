@@ -1,0 +1,50 @@
+# Dependências
+node_modules/
+vendor/
+.bundle/
+
+# Arquivos de build
+dist/
+build/
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.so
+*.dll
+
+# Arquivos de ambiente e configuração local
+.env
+.env.local
+*.local
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache

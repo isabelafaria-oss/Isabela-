@@ -1,0 +1,8 @@
+# No external dependencies required for the basic examples
+# Python 3.6+ standard library is sufficient
+
+# Optional: For extended profiling and testing
+# pytest>=7.0.0
+# pytest-benchmark>=4.0.0
+# memory-profiler>=0.61.0
+# line-profiler>=4.0.0

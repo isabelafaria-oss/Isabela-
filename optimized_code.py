@@ -32,8 +32,12 @@ def optimized_nested_loops(list1, list2):
 
 
 def optimized_list_copies(data):
-    """Optimized: Return reference when modification not needed."""
-    # If you truly need a copy, one is sufficient
+    """Optimized: Return reference when modification not needed.
+    
+    This avoids unnecessary memory allocation and copying.
+    If the caller truly needs a copy for modification, they should
+    explicitly call list(data) or data.copy() at the call site.
+    """
     return data
 
 

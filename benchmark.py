@@ -52,7 +52,12 @@ def benchmark_comparison(name, inefficient_func, optimized_func, test_data, iter
     optimized_time = time.time() - start
     
     # Calculate improvement
-    speedup = inefficient_time / optimized_time if optimized_time > 0 else float('inf')
+    if optimized_time > 0:
+        speedup = inefficient_time / optimized_time
+    else:
+        # Handle edge case where optimized time is effectively zero
+        speedup = 1000.0  # Use a large finite number
+    
     improvement_pct = ((inefficient_time - optimized_time) / inefficient_time * 100) if inefficient_time > 0 else 0
     
     print(f"Inefficient: {inefficient_time:.4f}s")
